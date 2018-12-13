@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GA game</title>
+</head>
+<body id="home">
+<!--<div class="bg1"></div>-->
+<!--<div class="bg2"></div>-->
+<div class="container">
+    <div class="top hidden">
+        <div class="row no-gutters">
+            <div class="col-3 d-lg-none text-center d-flex justify-content-center align-items-start">
+                <button class="ham">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="col-6 text-center col-lg-2 text-lg-right">
+                <img class="logo" src="./imgs/logo.png" alt="">
+            </div>
+            <div class="col-3 col-lg-2 order-lg-1 d-lg-flex justify-content-lg-center">
+                <button class="switch-lng">
+                    <i data-i18n="[class]menus.flag"></i>
+                    <span class="d-none d-lg-inline-block text" data-i18n="menus.lng"></span>
+                    <i class="ico arrow-down"></i>
+                    <span class="drop-box">
+                        <i class="ico arrow-down"></i>
+                        <a class="btnLng" href="./?lng=zh">
+                            <i class="flag cn"></i>
+                            <span class="text d-none d-lg-inline-block" data-i18n="menus.Cn"></span>
+                        </a>
+                        <a class="btnLng" href="./?lng=en">
+                            <i class="flag en"></i>
+                            <span class="text d-none d-lg-inline-block" data-i18n="menus.En"></span>
+                        </a>
+                    </span>
+                </button>
+            </div>
+            <div class="menu-wrap d-none d-lg-block col-lg-8 order-lg-0 clearfix">
+                <div class="menus clearfix float-lg-right">
+                    <a href="#home" class="item float-lg-left" data-i18n="menus.HOME"></a>
+                    <a href="#advantages" class="item float-lg-left delay-1s" data-i18n="menus.ADVANTAGES"></a>
+                    <a href="#game" class="item float-lg-left" data-i18n="menus.GAME"></a>
+                    <a href="#about" class="item float-lg-left" data-i18n="menus.ABOUT US"></a>
+                    <a href="#contact" class="item float-lg-left" data-i18n="menus.CONTACT"></a>
+                    <a href="http://qpint.z389.com/" class="item float-lg-left" data-i18n="menus.PLAY NOW"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="topBanner">
+    <img class="img-fluid d-none d-md-block" data-i18n="[src]topBanner" alt="">
+    <img class="d-block d-md-none" data-i18n="[src]topBanner-sm" alt="">
+</div>
+<div class="white-wrap text-center" id="advantages">
+    <h3 data-i18n="ADVANTAGES"></h3>
+    <p data-i18n="success"></p>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="javascript:">
+                <img class="img-fluid d-none d-md-block" src="./imgs/banner1.jpg" alt="">
+                <img class="img-fluid d-block d-md-none" src="./imgs/banner1-sm.jpg" alt="">
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="javascript:">
+                <img class="img-fluid d-none d-md-block" src="./imgs/banner2.jpg" alt="">
+                <img class="img-fluid d-block d-md-none" src="./imgs/banner2-sm.jpg" alt="">
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="javascript:">
+                <img class="img-fluid d-none d-md-block" src="./imgs/banner3.jpg" alt="">
+                <img class="img-fluid d-block d-md-none" src="./imgs/banner3-sm.jpg" alt="">
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="javascript:">
+                <img class="img-fluid d-none d-md-block" src="./imgs/banner4.jpg" alt="">
+                <img class="img-fluid d-block d-md-none" src="./imgs/banner4-sm.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev d-none d-md-block"></div>
+    <div class="swiper-button-next d-none d-md-block"></div>
+</div>
+
+<!--中间镂空-->
+<div class="hollow bg1">
+    <div class="cover"></div>
+</div>
+
+<!--试玩-->
+<div id="game" class="try-game container-fluid">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <h3 data-i18n="games.GAME"></h3>
+            <p data-i18n="games.different"></p>
+        </div>
+        <div class="col-md-2 text-md-right text-center">
+            <a class="tryBtn" href="http://qpint.z389.com/">
+                <span data-i18n="games.PLAY NOW"></span>
+                <i class="ico arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <!--games-->
+    <div class="games-box row ">
+        <div class="col-md-4 offset-md-2">
+            <a class="effect item-lg" href="javascript:">
+                <img class="img-fluid " src="./imgs/game5.jpg" alt="">
+                <span class="hover ">
+                    <b data-i18n="games.PLAY NOW"></b>
+                </span>
+            </a>
+            <p class="item-text text-mobile" data-i18n="games.Four Beauties"></p>
+        </div>
+        <div class="col-md-4 right-box">
+            <div class="row">
+                <div class="col-6">
+                    <a class="effect item-md" href="javascript:">
+                        <img class="img-fluid " src="./imgs/game1.jpg" alt="">
+                        <span class="hover">
+                            <b data-i18n="games.PLAY NOW"></b>
+                        </span>
+                    </a>
+                    <p class="item-text" data-i18n="games.super7 Baccarat"></p>
+                </div>
+                <div class="col-6">
+                    <a class="effect item-md" href="javascript:">
+                        <img class="img-fluid " src="./imgs/game2.jpg" alt="">
+                        <span class="hover">
+                            <b data-i18n="games.PLAY NOW"></b>
+                        </span>
+                    </a>
+                    <p class="item-text" data-i18n="games.28bar"></p>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 1.56666666%;">
+                <div class="col-6">
+                    <a class="effect item-md" href="javascript:">
+                        <img class="img-fluid" src="./imgs/game3.jpg" alt="">
+                        <span class="hover">
+                            <b data-i18n="games.PLAY NOW"></b>
+                        </span>
+                    </a>
+                    <p class="item-text" data-i18n="games.Texas poker"></p>
+                </div>
+                <div class="col-6">
+                    <a class="effect item-md" href="javascript:">
+                        <img class="img-fluid " src="./imgs/game4.jpg" alt="">
+                        <span class="hover">
+                            <b data-i18n="games.PLAY NOW"></b>
+                        </span>
+                    </a>
+                    <p class="item-text" data-i18n="games.Caribbean Poker"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--中间镂空-->
+<div class="hollow bg2">
+    <div class="cover"></div>
+</div>
+
+<div id="about" class="about container-fluid">
+    <h3 class="title" data-i18n="about.ABOUT US"></h3>
+    <div class="row">
+        <div class="effect col-md-2 offset-md-2 text-center mb10">
+            <div class="img-wrap">
+                <img class="img-fluid" src="./imgs/about-1.png" alt="">
+            </div>
+            <p class="text" data-i18n="[html]about.content1"></p>
+        </div>
+        <div class="effect col-md-2 offset-md-1 text-center mb10">
+            <div class="img-wrap">
+                <img class="img-fluid" src="./imgs/about-2.png" alt="">
+            </div>
+            <p class="text" data-i18n="[html]about.content2"></p>
+        </div>
+        <div class="effect col-md-2 offset-md-1 text-center mb10">
+            <div class="img-wrap">
+                <img class="img-fluid" src="./imgs/about-3.png" alt="">
+            </div>
+            <p class="text" data-i18n="[html]about.content3"></p>
+        </div>
+    </div>
+</div>
+
+<!--联系我们-->
+<div id="contact" class="contact container-fluid">
+    <h3 class="title" data-i18n="contact.CONTACT US"></h3>
+    <!--<div class="row">
+        <div class="col-md-3 offset-md-2">
+            <div class="input-wrap">
+                <i class="ico user"></i>
+                <input class="form-input" type="text" data-i18n="[placeholder]contact.NAME" placeholder="您的姓名">
+            </div>
+            <div class="input-wrap">
+                <i class="ico phone"></i>
+                <input class="form-input" type="text" data-i18n="[placeholder]contact.PHONE" placeholder="请输入你的电话">
+            </div>
+            <div class="input-wrap">
+                <i class="ico mail"></i>
+                <input class="form-input" type="text" data-i18n="[placeholder]contact.MAIL" placeholder="请输入你的邮箱">
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="ta-wrap">
+                <i class="ico edit"></i>
+                <textarea data-i18n="[placeholder]contact.MESSAGE" placeholder="您的信息"></textarea>
+            </div>
+        </div>
+    </div>
+    <p class="notice">
+        请填写完所有内容再发送
+    </p>
+    <div class="submit">
+        <a class="submit-btn" href="javascript:" data-i18n="contact.SEND"></a>
+    </div>-->
+
+    <div class="row no-gutters">
+        <div class="contact-bar col-md-8 offset-md-2">
+            <div class="wrap row no-gutters justify-content-center">
+                <div class="col-xl-4 text-xl-center text">
+                    <div class="item-wrap">
+                        <i class="ico-lg c-qq">
+                        </i>
+                        <span class="clip contact-num" data-i18n="[data-content]copy" data-clipboard-text="82377636"
+                              data-toggle="popover">82377636</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 text-xl-center text">
+                    <div class="item-wrap">
+                        <i class="ico-lg c-phone"></i>
+                        <span class="clip contact-num" data-i18n="[data-content]copy" data-clipboard-text="09661947446">09661947446</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 text-xl-center text">
+                    <div class="item-wrap">
+                        <i class="ico-lg c-mail"></i>
+                        <span class="clip contact-num" data-i18n="[data-content]copy"
+                              data-clipboard-text="320784f6f230429f">320784f6f230429f</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <p class="copy-notice" data-i18n="copy-notice"></p>
+        </div>
+    </div>
+    <div class="row no-gutters">
+        <div class="social col-md-8 offset-md-2">
+            <div class="line fl"></div>
+            <h3 class="title" data-i18n="social"></h3>
+            <div class="line fr"></div>
+        </div>
+    </div>
+    <div class="social-list row">
+        <a class="col-6 col-lg-2 offset-lg-1 text-center" target="_blank" href="http://blog.sina.com.cn/u/5891851571">
+            <img class="img-fluid" src="./imgs/sinablog.png" alt="">
+        </a>
+        <a class="col-6 col-lg-2 text-center" target="_blank" href="https://weibo.com/6611205852/profile?topnav=1&wvr=6&is_all=1">
+            <img class="img-fluid" src="./imgs/sinawb.png" alt="">
+        </a>
+        <a class="col-6 col-lg-2 text-center" target="_blank" href="http://mp.sohu.com/profile?xpt=bmd5aXpuY2J0ZkBzb2h1LmNvbQ==">
+            <img class="img-fluid" src="./imgs/souhuhao.png" alt="">
+        </a>
+        <a class="col-6 col-lg-2 text-center" target="_blank" href="https://i.youku.com/i/UMzEyNTgzMjMzNg==?spm=a2hww.11359951.uerCenter.5!6~5!2~A">
+            <img class="img-fluid" src="./imgs/youku.png" alt="">
+        </a>
+        <a class="col-6 col-lg-2 text-center" target="_blank" href="https://www.youtube.com/channel/UC4unP1m3-TPHa0E3c27bmPA?view_as=subscriber">
+            <img class="img-fluid" src="./imgs/youtube.png" alt="">
+        </a>
+    </div>
+</div>
+
+<div class="cooperation container-fluid">
+    <div class="row no-gutters">
+        <div class="col-6 col-md-4 col-xl-2 offset-xl-1">
+            <a href="https://habanerosystems.com">
+                <img class="normal img-fluid" src="./imgs/Habanero-1.png">
+                <img class="hover img-fluid" src="./imgs/Habanero.png">
+            </a>
+        </div>
+        <div class="col-6 col-md-4 col-xl-2 ">
+            <a href="https://www.pragmaticplay.com">
+                <img class="normal img-fluid" src="./imgs/pragmatic-1.png">
+                <img class="hover img-fluid" src="./imgs/pragmatic.png">
+            </a>
+        </div>
+        <div class="col-6 col-md-4 col-xl-2">
+            <a href="https://www.isoftbet.com">
+                <img class="normal img-fluid" src="./imgs/isoftbet-1.png">
+                <img class="hover img-fluid" src="./imgs/isoftbet.png">
+            </a>
+        </div>
+        <div class="col-6 col-md-4 col-xl-2">
+            <a href="https://www.twelve40.com">
+                <img class="normal img-fluid" src="./imgs/twelve40-1.png">
+                <img class="hover img-fluid" src="./imgs/twelve40.png">
+            </a>
+        </div>
+        <div class="col-6 col-md-4 col-xl-2">
+            <a href="http://www.wazdan.com/en/">
+                <img class="normal img-fluid" src="./imgs/wazdan-1.png">
+                <img class="hover img-fluid" src="./imgs/wazdan.png">
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+
+</script>
+</html>

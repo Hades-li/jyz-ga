@@ -1,0 +1,45 @@
+{
+    "menus": {
+        "HOME": "HOME",
+        "ADVANTAGES": "ADVANTAGES",
+        "GAME": "GAME",
+        "ABOUT US": "ABOUT US",
+        "CONTACT": "CONTACT",
+        "PLAY NOW": "PLAY NOW",
+        "flag": "flag en",
+        "lng": "En",
+        "Cn": "Cn",
+        "En": "En"
+    },
+    "topBanner": "locales/en/topBanner.jpg",
+    "topBanner-sm": "locales/en/topBanner-sm.jpg",
+    "ADVANTAGES": "ADVANTAGES",
+    "success": "We will be the reason of your company's success",
+    "games": {
+        "GAME": "GAME",
+        "different": "We are different, No usual way",
+        "PLAY NOW": "PLAY NOW",
+        "Four Beauties": "Four Beauties",
+        "super7 Baccarat": "super7 Baccarat",
+        "28bar": "28bar",
+        "Texas poker": "Texas poker",
+        "Caribbean Poker": "Caribbean Poker"
+    },
+    "about": {
+        "ABOUT US": "ABOUT US",
+        "content1": "GA corporation located in Manila founded in 2015, is a license holder of PAGCOR and is supervised by PAGCOR",
+        "content2": "The company has gathered a large number of experienced game designer and engineer at domestic and overseas, and mission to become a well-known brand in the industry.",
+        "content3": "The company has rich experience of successful cooperation with many companies, and has been creating a lot of benefits for them."
+    },
+    "contact": {
+        "CONTACT US": "CONTACT US",
+        "NAME": "YOUR NAME",
+        "PHONE": "PLEASE ENTER YOUR  PHONE NUMBER",
+        "MAIL": "PLEASE ENTER YOUR EMAIL ADDRESS",
+        "MESSAGE": "YOUR MESSAGE",
+        "SEND": "SEND"
+    },
+    "social": "Social",
+    "copy": "capied",
+    "copy-notice": "*Click to copy the contact number"
+}

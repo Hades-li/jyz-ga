@@ -1,0 +1,45 @@
+{
+    "menus": {
+        "HOME": "主页",
+        "ADVANTAGES": "优势",
+        "GAME": "游戏",
+        "ABOUT US": "关于我们",
+        "CONTACT": "联系我们",
+        "PLAY NOW": "快速试玩",
+        "flag": "flag cn",
+        "lng": "中文",
+        "Cn": "中文",
+        "En": "英文"
+    },
+    "topBanner": "locales/zh/topBanner.jpg",
+    "topBanner-sm": "locales/zh/topBanner-sm.jpg",
+    "ADVANTAGES": "优势",
+    "success": "为商户的成功，增添助力",
+    "games": {
+        "GAME": "游戏",
+        "different": "我们不一样  不走寻常路",
+        "PLAY NOW": "快速试玩",
+        "Four Beauties": "四大美女",
+        "super7 Baccarat": "super7 百家乐",
+        "28bar": "二八杠",
+        "Texas poker": "德州扑克",
+        "Caribbean Poker": "加勒比扑克"
+    },
+    "about": {
+        "ABOUT US": "关于我们",
+        "content1": "公司成立于2015年，位于马尼拉，持有pagcor牌照，受pagcor监管。",
+        "content2": "汇聚了大量国内外有经验的策划和研发人员，立志于成为业内的知名品牌。",
+        "content3": "已经有与多家商户的成功合作的经验，为商户创造了大量的利益。"
+    },
+    "contact": {
+        "CONTACT US": "联系我们",
+        "NAME": "你的姓名",
+        "PHONE": "请输入你的电话",
+        "MAIL": "请输入你的邮箱",
+        "MESSAGE": "您的信息",
+        "SEND": "发送"
+    },
+    "social": "社交账号",
+    "copy": "已复制",
+    "copy-notice": "*点击可直接复制联系方式"
+}
